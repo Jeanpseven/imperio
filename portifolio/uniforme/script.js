@@ -1,12 +1,12 @@
 
   // 🔧 Variáveis configuráveis
-  const totalImagens = 29;
+  const totalImagens = 6;
   const pastaImagens = "imagens/";
   const nomeBase = "foto";
   const extensao = "jpg";
   const seletorWrapper = "#swiper-wrapper";
 
-  
+  // 🔍 Detectar se é mobile
   const isMobile = window.innerWidth <= 768;
 
   // 📸 Inserir as imagens dinamicamente
@@ -34,6 +34,6 @@
       delay: 2500,
       disableOnInteraction: false,
     },
-  
+    
   });
 
