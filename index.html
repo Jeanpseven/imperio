@@ -119,6 +119,10 @@
     0 10px 20px #F9E171;
   z-index: 2
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 </style>
 <link rel="stylesheet" href="style.css">
@@ -129,13 +133,12 @@
   </header>
 
   <nav>
-    <a href="#">Início</a>
-    <a href="#">Serviços</a>
-    <a href="#">Portfólio</a>
-    <a href="#">Contato</a>
+    <a href="#hero">Início</a>
+    <a href="#portifolio">Portfólio</a>
+    <a href="#contato">Contato</a>
   </nav>
 
-  <section class="hero">
+  <section id="hero" class="hero">
     <h1>Bem-vindo à Império dos Balões</h1>
     <p>Especialistas em mídia e impressão com criatividade, elegância e impacto visual!</p>
     <a class="btn-whatsapp" href="http://api.whatsapp.com/send?1=pt_BR&phone=5531994403372" 
@@ -148,7 +151,7 @@
    <iframe src="swiper/index.html" style="width: 100%; height: 100%; border: none; border-top: 2px solid var(--azul);
       border-bottom: 2px solid var(--amarelo);"></iframe>
   <!-- <iframe src="inventarioteste.html" style="width: 100%; height: 600px; border: none;"></iframe> -->
-    <section class="catalogo">
+    <section id="portifolio" class="catalogo">
     <h1 >Inventário de Produtos</h1>
     <div class="grid-catalogo">
 
@@ -286,7 +289,7 @@
 
   
 
-<footer>
+<footer id="contato">
     <strong>ORÇAMENTOS E SERVIÇOS</strong>
     <p>(31) 9 8470-2727</p>
     <p>(31) 99440-3372</p>
